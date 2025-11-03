@@ -1,11 +1,5 @@
-// A modern C# program using top-level statement that runs ILDASM on a specified assembly.
-// It should be a single-file program (ie. no csproj file). Just execute with `dotnet run run-ildasm.cs <assembly-path>`.
-// Pick the appropriate package from https://www.nuget.org/packages?q=ildasm
-// (can be referenced with `#:package` directive, documented here: https://github.com/dotnet/csharplang/blob/main/proposals/csharp-14.0/ignored-directives.md
-// and here: https://andrewlock.net/exploring-dotnet-10-preview-features-1-exploring-the-dotnet-run-app.cs/ )
-// This should use .NET 10 version of ildasm.
-
 #:package Microsoft.NETCore.ILDAsm@10.0.0-rc.2.25502.107
+
 using System.Diagnostics;
 using System.Runtime.InteropServices;
 
