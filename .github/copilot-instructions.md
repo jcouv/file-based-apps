@@ -77,6 +77,12 @@ Configure build properties using `#:property`:
 #:property TargetFramework=net10.0
 ```
 
+Start with these build properties unless otherwise specified:
+```csharp
+#:property LangVersion=preview
+#:property PublishAot=false
+```
+
 ### Project References (.NET 10 Preview 6+)
 
 Reference other projects using `#:project`:
